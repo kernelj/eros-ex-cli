@@ -1,5 +1,5 @@
 {
-  "name": "eros-cli",
+  "name": "eros-ex-cli",
   "version": "2.0.9",
   "description": "A simple CLI for scaffolding weex projects, we provide eros-template to quickly build small and medium sized app.",
   "bin": {
@@ -78,5 +78,13 @@
     "ws": "^4.0.0",
     "yargs": "4.8.0",
     "zip-folder": "^1.0.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
