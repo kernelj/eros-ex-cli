@@ -1,6 +1,6 @@
 {
-  "name": "eros-ex-cli",
-  "version": "2.0.9",
+  "name": "eros-cli",
+  "version": "2.1.0",
   "description": "A simple CLI for scaffolding weex projects, we provide eros-template to quickly build small and medium sized app.",
   "bin": {
     "eros": "./bin/eros.js"
@@ -15,7 +15,7 @@
     "hybird app",
     "eros"
   ],
-  "author": "Zero",
+  "author": "kj",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.25.0",
@@ -32,6 +32,7 @@
     "eslint-loader": "^1.9.0",
     "eslint-plugin-html": "^4.0.1",
     "eslint-plugin-vue": "^4.1.0",
+    "file-loader": "^2.0.0",
     "glob": "7.0.6",
     "gulp": "3.9.1",
     "gulp-clean": "0.3.2",

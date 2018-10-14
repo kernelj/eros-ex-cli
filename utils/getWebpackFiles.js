@@ -24,11 +24,10 @@ function getAlias() {
     var aliasMap = {},
         aliasConfig = readConfig.get('alias');
     for (var i in aliasConfig) {
-        if (aliasConfig[i].slice(0, 2) === 'js') {
+        if (aliasConfig[i].slice(0, 2) === 'js' || aliasConfig[i].slice(0, 2) === 'as') {
             aliasMap[i] = path.join(process.cwd(), '/src', aliasConfig[i]);
         } else {
             aliasMap[i] = aliasConfig[i];
-
         }
     }
     return aliasMap;
